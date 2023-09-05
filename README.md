@@ -16,17 +16,16 @@ This is a hands-on workshop for data engineering and architect specialists build
 - Get insights on how to start with small teams using rapid design and implementation best practices.
 
 # Lab 0 Getting Started
+___
 This repo includes the materials needed to set up and execute the Lakehouse workshop. 
 
 ## Upload the notebooks
-___
 In this section you will upload the python notebooks used in the lab to your student workspace.
 1.	Navigate to your student workspace and switch to the Data Engineering persona
 2.	Select the option to "Import notebook"
 3.	Click "Upload" and browse to the location where you downloaded the notebooks from this repo, and select all notebooks
 
 ## Lab 0 - Beginner
-___
 This lab consists of a set of notebooks to familiarize yourself with the Fabric workspace and using Fabric notebooks.
 1.  Open [Lab 0.0 - Getting Around The Fabric Workspace](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/a9bd64343d6d34012112486dd941aa2242dfec16/Lab%200.0%20-%20Getting%20Around%20The%20Fabric%20Workspace.ipynb) and review how to navigate within the Fabric workspace
 2.  Open [Lab 0.1 - Using Notebooks](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/a9bd64343d6d34012112486dd941aa2242dfec16/Lab%200.1-%20Using%20Notebooks.ipynb) and practice using Fabric notebooks 
