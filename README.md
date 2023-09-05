@@ -77,3 +77,14 @@ In this lab, we will explore how to work with Delta Tables when using Fabric Not
 
 # Lab 3 Streaming Lakehouse
 ___
+In this lab, we will see how to work with Delta Lake to manage real-time streaming data. In addition to Delta Tables we will also get to see some tips and tricks on working on Fabric environment.
+
+Some of the things we will look at are:
+* Creating a new Delta Table
+* Consuming data from event hub and store it in a delta table
+* Analyzing real-time flight data with SparkSQL
+
+1. Open [Lab 3 - Delta Streaming Lab](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/950c183333bd8fa54ccc5aa74d82f6e4527af656/Lab%203%20-%20Delta%20Streaming%20Lab.ipynb) notebook and review the informational links at the top of the notebook
+2. Add the <i>liad_bronze</i> lakehouse to the Lakehouse explorer
+3. Proceed through the notebook to create and explore streaming delta tables
+
