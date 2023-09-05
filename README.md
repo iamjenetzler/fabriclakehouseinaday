@@ -28,8 +28,8 @@ In this section you will upload the python notebooks used in the lab to your stu
 ## Lab 0 - Beginner
 ___
 This lab consists of a set of notebooks to familiarize yourself with the Fabric workspace and using Fabric notebooks.
-1.  Open Lab 0.0 - Getting Around The Fabric Workspace and review how to navigate within the Fabric workspace
-2.  Open Lab 0.1 - Using Notebooks and practice using Fabric notebooks 
+1.  Open [Lab 0.0 - Getting Around The Fabric Workspace](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/a9bd64343d6d34012112486dd941aa2242dfec16/Lab%200.0%20-%20Getting%20Around%20The%20Fabric%20Workspace.ipynb) and review how to navigate within the Fabric workspace
+2.  Open [Lab 0.1 - Using Notebooks](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/a9bd64343d6d34012112486dd941aa2242dfec16/Lab%200.1-%20Using%20Notebooks.ipynb) and practice using Fabric notebooks 
 
 ## Lab 1 Medallion Lakehouse
 ___
@@ -39,38 +39,38 @@ This gives you some security isolation, and easy cross-tier queries without havi
 in Fabric in other workspaces as other teams consume the Silver and Gold data through shortcuts and build data marts in Fabric for consumption through Power BI (Direct Lake) or SQL.
 
 ### Lab 1.1 - Bronze
-1. Open notebook Lab 1.1 - Bronze and review the informational links at the top of the notebook.
-2. Switch back to the root of your student workspace, and create a new lakehouse for your bronze lakehouse, named "liad_bronze".
-    1. Within the "liad_bronze" lakehouse, navigate to "Get data" > "New shortcut" to create a new shortcut.
-    2. Select "Azure Data Lake Storage Gen2" as the source.
+1. Open notebook [Lab 1.1 - Bronze](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/a9bd64343d6d34012112486dd941aa2242dfec16/Lab%201.1%20-%20Bronze.ipynb) and review the informational links at the top of the notebook.
+2. Switch back to the root of your student workspace, and create a new lakehouse for your bronze lakehouse, named <i>liad_bronze</i>
+    1. Within the <i>liad_bronze</i> lakehouse, navigate to <b>Get data</b> > <b>New shortcut</b> to create a new shortcut
+    2. Select <b>Azure Data Lake Storage Gen2</b> as the source
     3. Create a new connection as follows:
         - **URL**: `https://storliadadls.blob.core.windows.net/source`
         - **Authentication kind**: Shared Access Signature (SAS)
         - **SAS token**: `?sp=rl&st=2023-08-11T18:59:06Z&se=2024-08-12T02:59:06Z&spr=https&sv=2022-11-02&sr=c&sig=TkxfKfqFP%2BZ9fk12N2ZOaTVnH2shUJUHtB2AF%2BWn2pk%3D`
     4. If you need to edit your connection after it is created, within your workspace navigate to Fabric settings using the gear icon in the top right corner, and select "Manage connections and gateways"    
-4. Navigate back to Lab 1.1 - Bronze notebook, and add your liad_bronze lakehouse to the Lakehouse explorer
+4. Navigate back to [Lab 1.1 - Bronze](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/a9bd64343d6d34012112486dd941aa2242dfec16/Lab%201.1%20-%20Bronze.ipynb) notebook, and add the <i>liad_bronze</i> lakehouse to the Lakehouse explorer
 5. Proceed through the remainder of the notebook to populate your bronze lakehouse with data
    
 ### Lab 1.2 - Silver
-1. Switch back to the root of your student workspace, and create a new lakehouse for your silver lakehouse named "liad_silver"
+1. Switch back to the root of your student workspace, and create a new lakehouse for your silver lakehouse named <i>liad_silver</i>
 2. Within the silver lakehouse, create a shortcut to your bronze lakehouse 
-2. Open the notebook Lab 1.2 - Silver notebook
-    1. Add the liad_silver lakehouse to the Lakehouse explorer 
-    2. Add the liad_bronze lakehouse to the Lakehouse explorer
-    3. Click the Pin icon next to liad_silver to set it as the Default lakehouse
+2. Open the [Lab 1.2 - Silver](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/a9bd64343d6d34012112486dd941aa2242dfec16/Lab%201.2%20-%20Silver.ipynb) notebook
+    1. Add the <i>liad_silver</i> lakehouse to the Lakehouse explorer 
+    2. Add the <i>liad_bronze</i> lakehouse to the Lakehouse explorer
+    3. Click the Pin icon next to <i>liad_silver</i> to set it as the Default lakehouse
 3. Proceed through the notebook to populate your silver lakehouse with data
 
 ### Lab 1.3 - Gold 
-1. Switch back to the root of your student workspace, and create a new lakehouse for your gold lakehouse named "liad_gold"
-2. Open the notebook Lab 1.3 - Gold notebook and add the liad_gold lakehouse to the lakehouse explorer     
+1. Switch back to the root of your student workspace, and create a new lakehouse for your gold lakehouse named <i>liad_gold</i>
+2. Open the [Lab 1.3 - Gold](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/a9bd64343d6d34012112486dd941aa2242dfec16/Lab%201.3%20-%20Gold.ipynb) notebook and add the <i>liad_gold</i> lakehouse to the lakehouse explorer     
 3. Proceed through the notebook to populate your gold lakehouse with data
 
 ## Lab 2 Delta Tables
 ___
 In this lab, we will explore how to work with Delta Tables when using Fabric Notebooks. In addition to Delta Tables, we will also cover some tips and tricks for working in the Fabric environment. 
 
-1. Open Lab 2 - Delta Tables notebook and review the informational links at the top of the notebook.
-2. Add the liad_bronze lakehouse to the Lakehouse explorer
+1. Open [Lab 2 - Delta Tables](https://github.com/iamjenetzler/fabriclakehouseinaday/blob/a9bd64343d6d34012112486dd941aa2242dfec16/Lab%202%20-%20Delta%20Tables.ipynb) notebook and review the informational links at the top of the notebook
+2. Add the <i>liad_bronze</i> lakehouse to the Lakehouse explorer
 3. Proceed through the notebook to create and explore delta tables
 
 ## Lab 3 Streaming Lakehouse
