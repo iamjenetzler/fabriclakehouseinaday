@@ -67,16 +67,7 @@ in Fabric in other workspaces as other teams consume the Silver and Gold data th
 
 ## Lab 2 Delta Tables
 ___
-In this lab, we will explore how to work with Delta Tables when using Fabric Notebooks.
-
-### Topics Covered
-- Creating a new Delta Table
-- Using Delta Log and Time Traveling
-- Tracking data changes using Change Data Feed
-- Cloning tables
-- Masking data by using Dynamic Views
-
-In addition to Delta Tables, we will also cover some tips and tricks for working in the Fabric environment.
+In this lab, we will explore how to work with Delta Tables when using Fabric Notebooks. In addition to Delta Tables, we will also cover some tips and tricks for working in the Fabric environment. 
 
 1. Open Lab 2 - Delta Tables notebook and review the informational links at the top of the notebook.
 2. Add the liad_bronze lakehouse to the Lakehouse explorer
