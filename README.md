@@ -15,7 +15,7 @@ This is a hands-on workshop for data engineering and architect specialists build
 
 - Get insights on how to start with small teams using rapid design and implementation best practices.
 
-# Getting Started
+# Lab 0 Getting Started
 This repo includes the materials needed to set up and execute the Lakehouse workshop. 
 
 ## Upload the notebooks
