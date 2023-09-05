@@ -1,8 +1,11 @@
 # fabriclakehouseinaday
+
 # Introduction 
+___
 This is a hands-on workshop for data engineering and architect specialists building a highly scalable and performant data lakehouse solution for batch and streaming data.​
 
 # Goals
+___
 - Help customers do much more with less!​
 
 - Help Microsoft customers and partners build data lake house centric analytics platforms.​
