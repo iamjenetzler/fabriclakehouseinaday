@@ -73,5 +73,5 @@ In this lab, we will explore how to work with Delta Tables when using Fabric Not
 2. Add the liad_bronze lakehouse to the Lakehouse explorer
 3. Proceed through the notebook to create and explore delta tables
 
-## 3 Streaming Lakehouse
+## Lab 3 Streaming Lakehouse
 ___
